@@ -164,7 +164,7 @@ endif
 # Path definitions
 
 # Use if application directory contains multiple targets
-SDK_BASE_DIR        =  $(abspath ../../../../sdk/$(JENNIC_SDK))
+SDK_BASE_DIR        =  /c/NXP/bstudio_nxp/sdk/$(JENNIC_SDK)
 APP_BASE            =  $(abspath ../..)
 APP_BLD_DIR         = $(APP_BASE)/Common_Light/Build
 APP_SRC_DIR         = $(APP_BASE)/Common_Light/Source

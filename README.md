@@ -15,6 +15,7 @@ To edit and build the firmware please folow these steps:
 - Install the NXP toolchain (JN516x) (details [here](http://peeveeone.com/?p=144)) and make sure the demo project builds
 - Create a new workspace
 - Import this project from Git, make sure you pick the root of the workspace as the repository location
+- In 'Common_Light/Makefile' set the SDK_BASE_DIR variable to the location of the BeyondStudio installation (ECLIPSE_HOME)
 - Select the light you want to build from the build configurations
 - Build the project
 - Load the firmware (details [here](http://peeveeone.com/?p=187))

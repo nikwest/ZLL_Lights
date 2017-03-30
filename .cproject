@@ -21,7 +21,7 @@
 							<builder arguments="LIGHT=Light_DimmableLight OTA=0 JENNIC_CHIP=JN5168 RGB=0" autoBuildTarget="all" buildPath="${ProjDirPath}/Common_Light/Build/ " cleanBuildTarget="clean" command="make" enableAutoBuild="false" enableCleanBuild="true" enabledIncrementalBuild="true" id="com.beyondsemi.builder.cdt.gnu.1335210811" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="false" superClass="com.beyondsemi.builder.cdt.gnu"/>
 							<tool id="com.beyondsemi.tool.gnu.ba.elf.compiler.c.base.1922993733" name="BA ELF GNU C compiler" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.c.base">
 								<option id="gnu.c.compiler.option.include.paths.842602994" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;C:\NXP2\bstudio_nxp\sdk\JN-SW-4168\Components\Common\Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${eclipse_home}\sdk\JN-SW-4168\Components\Common\Include&quot;"/>
 								</option>
 								<inputType id="com.beyondsemi.base.ba.elf.c.compiler.input.1449865702" superClass="com.beyondsemi.base.ba.elf.c.compiler.input"/>
 								<inputType id="com.beyondsemi.assembler.macro.input.1255463343" superClass="com.beyondsemi.assembler.macro.input"/>
